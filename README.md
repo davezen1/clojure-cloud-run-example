@@ -1,6 +1,11 @@
-# clojure-cloud-run
+# clojure-cloud-run - Sample Project using Google Cloud Run and Clojure with Pedestal
 
-FIXME
+Useful links:
+
+- https://cloud.google.com/run/docs
+- https://github.com/ahmetb/cloud-run-faq
+- https://cloud.google.com/cloud-build/docs/deploying-builds/deploy-cloud-run
+
 
 ## Getting Started
 

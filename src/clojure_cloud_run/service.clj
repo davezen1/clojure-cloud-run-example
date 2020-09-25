@@ -20,7 +20,15 @@
     "If you love life, don't waste time, for time is what life is made up of." 
     "Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it."
     "The key to immortality is first living a life worth remembering."
-    "You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend."))
+    "You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend."
+    "Having no limitation as limitation"
+    "If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them."
+    "Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it."
+    "Obey the principles without being bound by them."
+    "If you want to learn to swim jump into the water. On dry land no frame of mind is ever going to help you."
+    "The less effort, the faster and more powerful you will be."
+    "It's not the daily increase but daily decrease. Hack away at the unessential."
+    "Simplicity is the key to brilliance."))
 
 (defn quotes-bruce-page [request]
   (let [random-quote (rand-nth bruce-lee-quotes)]
@@ -37,9 +45,10 @@ img {
     width: 100%;
     height: 100%;
     z-index: -1;
-} h1 { color: #fff; font-size: 68px; text-align: center; padding: 280px 0; }</style><img src=\"https://source.unsplash.com/1600x900?nature,water\">
-<h1>" random-quote " - Bruce Lee</h1></body></html>\n")
-                          :headers {"Content-Type" "text/html"}}))
+} h1 { color: #fff; font-size: 68px; text-align: center; padding: 280px 0; }
+</style><img src=\"https://source.unsplash.com/1600x900?zen\">
+<h1>" random-quote " - Bruce Lee</h1></body></html>")
+        :headers {"Content-Type" "text/html"}}))
  
 ;; Defines "/" and "/about" routes with their associated :get handlers.
 ;; The interceptors defined after the verb map (e.g., {:get home-page}
